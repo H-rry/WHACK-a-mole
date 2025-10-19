@@ -26,7 +26,7 @@ score = 0
 
 
 t=5
-
+print('WHACK a mole')
 print('co ordinates are in form xy e.g. a1, press enter to start')
 input()
 while playing == True:
