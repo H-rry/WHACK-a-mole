@@ -25,11 +25,15 @@ playing = True
 score = 0
 
 
-t=5
+t=7
 print('WHACK a mole')
 print('co ordinates are in form xy e.g. a1, press enter to start')
 input()
 while playing == True:
+    t = t - score/2
+    if t <3:
+        t=3
+
     mole()
     draw_board(board)
 
